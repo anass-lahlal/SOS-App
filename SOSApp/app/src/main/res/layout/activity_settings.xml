@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="anass.lahlal.com.sosapp.SettingsActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emergency contacts"
+        android:paddingTop="30dp"
+        android:id="@+id/etContact"
+        android:onClick="chooseContact"
+        />
+    <EditText
+        android:paddingTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emergency message"
+        android:id="@+id/etMessage"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="20sp"
+        android:onClick="savePreferences"
+        />
+
+
+</LinearLayout>
